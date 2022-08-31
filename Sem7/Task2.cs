@@ -32,11 +32,6 @@ for (int i = 0; i < numbers.GetLength(0); i++)
 }
 
 
-int ReadInt (string message)
-{
-Console.Write (message);
-return Convert.ToInt32(Console.ReadLine());
-}
 
 void FillArray2D(int[,] array)
 {
